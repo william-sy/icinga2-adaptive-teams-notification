@@ -24,7 +24,8 @@ Code in markdown seems to be unsupported?
 1. The default re-notification interval can be changed.
 1. The re-notification interval can be customized per host or service.
 1. When the notification for a host is enabled, it will be inherited to all of its services checks, unless disabled for the specific service(s).
-1. Emoticons!
+1. **Emoticons!**
+1. **Mobile app support** (Note: this is way better for adaptive cards than MessageCard's by default.)
 
 # Installation and Basic Configuration
 1. Copy the `/configuration/master_*` files to `/etc/icinga2/conf.d/` or `/etc/icinga2/zones.d` directory (depending on architecture)
