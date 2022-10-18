@@ -1,7 +1,8 @@
 # icinga2-teams-notification
 
 This is a adaptive version of:
-- [REPO](https://github.com/seffparker/icinga2-teams-notification)
+- [Original project](https://github.com/seffparker/icinga2-teams-notification)
+
 Which is based on:
 - [slack alert](https://github.com/seffparker/icinga2-rich-slack-notification)
 
