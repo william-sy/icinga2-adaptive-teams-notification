@@ -29,7 +29,7 @@ Code in markdown seems to be unsupported?
 1. **Mobile app support** (Note: this is way better for adaptive cards than MessageCard's by default.)
 
 # Installation and Basic Configuration
-1. Copy the `/configuration/master_*` files to `/etc/icinga2/conf.d/` or `/etc/icinga2/zones.d` directory (depending on architecture)
+1. Copy the `/configuration/master_*` files to `/etc/icinga2/conf.d/` or `/etc/icinga2/zones.d/global-templates/` directory (depending on architecture)
 1. Modify the `vars.teams_notifications_icinga2_base_url` in the `master_teams_config.conf` with your IcingaWeb2 Base URL. This is to jump to Alert Dashboard right from Teams channel.
 1. Configure the existing host or service configuration like the provided one in the `/configuration/host_sample.conf`
 3. Get the `webhook_url` of the Teams Channel and add in to the `object User` section of required notification user(s). [Read more here](https://docs.microsoft.com/en-us/microsoftteams/platform/webhooks-and-connectors/how-to/add-incoming-webhook)
